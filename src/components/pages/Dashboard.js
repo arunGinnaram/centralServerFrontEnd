@@ -11,6 +11,7 @@ import Popper from "popper.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import { Bar, Radar, Doughnut, PolarArea, Scatter } from "react-chartjs-2";
+
 // import images from "../assets/images.jpg";
 // import longjump from "../assets/longjump.png";
 
@@ -567,7 +568,7 @@ function Dashboard() {
             backgroundColor: "#f5f5f5", height: "38%"
           }}
         >
-          <Bar data={batch} />
+          {/* <Bar data={batch} /> */}
         </div>
 
       </div>
@@ -587,7 +588,7 @@ function Dashboard() {
 
           }}
         >
-          <Bar data={pst} />
+          {/* <Bar data={pst} /> */}
         </div>
 
         {/* <div
@@ -794,7 +795,7 @@ function Dashboard() {
             backgroundColor: "#f5f5f5", height: "38%"
           }}
         >
-          <Bar data={gender} />
+          {/* <Bar data={gender} /> */}
         </div>
       </div>
 
