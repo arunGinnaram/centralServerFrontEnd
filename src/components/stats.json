@@ -1,0 +1,39 @@
+{
+  "list": [
+    {
+      "location": "Delhi",
+      "list": [
+        {
+          "batch": "2",
+          "batchCount": 2,
+          "batchQualifiedCount": 2,
+          "batchNotQualifiedCount": 0
+        },
+        {
+          "batch": "Total",
+          "batchCount": 2,
+          "batchQualifiedCount": 2,
+          "batchNotQualifiedCount": 0
+        }
+      ]
+    },
+    {
+      "location": "Hyderabad",
+      "list": [
+        {
+          "batch": "1",
+          "batchCount": 5,
+          "batchQualifiedCount": 0,
+          "batchNotQualifiedCount": 2
+        },
+        {
+          "batch": "Total",
+          "batchCount": 5,
+          "batchQualifiedCount": 0,
+          "batchNotQualifiedCount": 2
+        }
+      ]
+    }
+  ],
+  "maxRunsessions": 2
+}

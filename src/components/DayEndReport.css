@@ -1,0 +1,38 @@
+.dayend {
+  margin-top: 7%;
+  width: 80%;
+  margin-left: 10%;
+  background-color: silver;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.selects-day-end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-batch {
+  background-color: rgb(223, 223, 223);
+  padding: 0.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.btns {
+  margin-top: 2rem;
+}
+
+.btndayend {
+  width: 20%;
+  border: none;
+  background-color: rgb(51, 72, 80);
+  display: block;
+  margin-left: 40%;
+  margin-top: 1rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}

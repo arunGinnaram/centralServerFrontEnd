@@ -1,0 +1,1103 @@
+/*  
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #B0B0B0;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+} */
+
+
+
+/**/
+/* 
+.btn-37,
+.btn-37 *,
+.btn-37 :after,
+.btn-37 :before,
+.btn-37:after,
+.btn-37:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-37 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-37:disabled {
+  cursor: default;
+}
+.btn-37:-moz-focusring {
+  outline: auto;
+}
+.btn-37 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-37 [hidden] {
+  display: none;
+}
+.btn-37 {
+  border: 1px solid;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  padding: 1.1rem 4rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-37 .new,
+.btn-37 .old span {
+  font-weight: 900;
+  transition: transform 0.6s;
+}
+.btn-37 .new {
+  display: block;
+  transform: scale(0);
+}
+.btn-37:hover .new {
+  transform: scale(1);
+}
+.btn-37 .old,
+.btn-37 .old span {
+  inset: 0;
+  position: absolute;
+}
+.btn-37 .old span {
+  background: #fff;
+  color: #000;
+  display: block;
+  display: grid;
+  place-items: center;
+}
+.btn-37 .old span:first-child {
+  -webkit-clip-path: polygon(0 0, 51% 0, 51% 100%, 0 100%);
+  clip-path: polygon(0 0, 51% 0, 51% 100%, 0 100%);
+}
+.btn-37 .old span:nth-child(2) {
+  -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+}
+.btn-37:hover .old span:first-child {
+  transform: translateY(-100%);
+}
+.btn-37:hover .old span:nth-child(2) {
+  transform: translateY(100%);
+}
+
+ */
+
+.btn-52,
+.btn-52 *,
+.btn-52 :after,
+.btn-52 :before,
+.btn-52:after,
+.btn-52:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-52 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #6ba267;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
+  font-size: 100%;
+  line-height: 1.2;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-52:disabled {
+  cursor: default;
+}
+.btn-52:-moz-focusring {
+  outline: auto;
+}
+.btn-52 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-52 [hidden] {
+  display: none;
+}
+.btn-52 {
+  width:  220px;
+  border: 1px solid rgb(221, 205, 205);
+  border-radius: 0px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 1rem 1rem;
+  position: relative;
+  /* text-transform: uppercase; */
+}
+.btn-52 .original {
+  width:  220px;
+  background: #9c999c;
+  color: #000;
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.4s;
+}
+.btn-52:hover .original {
+  transform: translateY(100%);
+   
+}
+.btn-52 .letters {
+  display: inline-flex;
+}
+.btn-52 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.2s, opacity 0.2s;
+}
+.btn-52:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+.btn-52:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(4) {
+   transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(5) {
+   transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(6) {
+   transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(7) {
+   transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(8) {
+  transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(9) {
+  transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(10) {
+   transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(11) {
+   transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(12) {
+   transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(13) {
+   transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(14) {
+  transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(15) {
+  transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(16) {
+  transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(17) {
+   transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(18) {
+   transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(19) {
+   transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(20) {
+   transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(21) {
+   transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(22) {
+  transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(23) {
+   transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(24) {
+   transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(25) {
+   transition-delay: 0.1s;
+   
+}
+.btn-52:hover span:nth-child(26) {
+   transition-delay: 0.2s;
+   
+}
+.btn-52:hover span:nth-child(27) {
+  transition-delay: 0.1s;
+  transform: translateY(13px) translateX(-110px);
+}
+.btn-52:hover span:nth-child(28) {
+  transition-delay: 0.2s;
+  transform: translateY(13px) translateX(-109px);
+}
+
+.btn-52:hover span:nth-child(29) {
+  transition-delay: 0.1s;
+  transform: translateY(13px) translateX(-108px);
+}
+
+.btn-52:hover span:nth-child(30) {
+  transition-delay: 0.2s;
+  transform: translateY(13px) translateX(-107px);
+}
+
+
+
+.btn-54,
+.btn-54 *,
+.btn-54 :after,
+.btn-54 :before,
+.btn-54:after,
+.btn-54:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-54 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #6ba267;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
+  font-size: 100%;
+  line-height: 1.2;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-54:disabled {
+  cursor: default;
+}
+.btn-54:-moz-focusring {
+  outline: auto;
+}
+.btn-54 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-54 [hidden] {
+  display: none;
+}
+.btn-54 {
+  width:  220px;
+  border: 1px solid rgb(221, 205, 205);
+  border-radius: 0px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 1rem 1rem;
+  position: relative;
+  /* text-transform: uppercase; */
+}
+.btn-54 .original {
+  width:  220px;
+  background: #9c999c;
+  color: #000;
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.4s;
+}
+.btn-54:hover .original {
+  transform: translateY(100%);
+}
+.btn-54 .letters {
+  display: inline-flex;
+}
+.btn-54 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.2s, opacity 0.2s;
+}
+.btn-54:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+.btn-54:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(4) {
+  transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(5) {
+  transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(6) {
+   transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(7) {
+   transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(8) {
+  transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(9) {
+  transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(10) {
+   transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(11) {
+   transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(12) {
+   transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(13) {
+   transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(14) {
+  transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(15) {
+  transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(16) {
+  transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(17) {
+   transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(18) {
+   transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(19) {
+   transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(20) {
+   transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(21) {
+   transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(22) {
+  transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(23) {
+   transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(24) {
+   transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(25) {
+   transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(26) {
+   transition-delay: 0.2s;
+}
+.btn-54:hover span:nth-child(27) {
+  transition-delay: 0.1s;
+}
+.btn-54:hover span:nth-child(28) {
+  transition-delay: 0.2s;
+}
+
+
+
+.btn-55,
+.btn-55 *,
+.btn-55 :after,
+.btn-55 :before,
+.btn-55:after,
+.btn-55:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-55 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #6ba267;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
+  font-size: 100%;
+  line-height: 1.2;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-55:disabled {
+  cursor: default;
+}
+.btn-55:-moz-focusring {
+  outline: auto;
+}
+.btn-55 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-55 [hidden] {
+  display: none;
+}
+.btn-55 {
+  width:  220px;
+  border: 1px solid rgb(228, 202, 202);
+  border-radius: 0px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 1rem 1rem;
+  position: relative;
+  /* text-transform: uppercase; */
+}
+.btn-55 .original {
+  width:  220px;
+  background: #9c999c;
+  color: #000;
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.4s;
+}
+.btn-55:hover .original {
+  transform: translateY(100%);
+}
+.btn-55 .letters {
+  display: inline-flex;
+}
+.btn-55 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.2s, opacity 0.2s;
+}
+.btn-55:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+.btn-55:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(4) {
+   transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(5) {
+   transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(6) {
+   transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(7) {
+   transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(8) {
+  transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(9) {
+  transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(10) {
+   transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(11) {
+   transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(12) {
+   transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(13) {
+   transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(14) {
+  transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(15) {
+  transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(16) {
+  transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(17) {
+   transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(18) {
+   transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(19) {
+   transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(20) {
+   transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(21) {
+   transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(22) {
+  transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(23) {
+   transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(24) {
+   transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(25) {
+   transition-delay: 0.1s;
+}
+.btn-55:hover span:nth-child(26) {
+   transition-delay: 0.2s;
+}
+.btn-55:hover span:nth-child(27) {
+  transition-delay: 0.1s;
+  transform: translateY(13px) translateX(-110px);
+}
+.btn-55:hover span:nth-child(28) {
+  transition-delay: 0.2s;
+  transform: translateY(13px) translateX(-109px);
+}
+
+.btn-55:hover span:nth-child(29) {
+  transition-delay: 0.1s;
+  transform: translateY(13px) translateX(-108px);
+}
+
+.btn-55:hover span:nth-child(30) {
+  transition-delay: 0.2s;
+  transform: translateY(13px) translateX(-107px);
+}
+.btn-55:hover span:nth-child(31) {
+  transition-delay: 0.1s;
+  transform: translateY(13px) translateX(-106px);
+}
+
+.btn-55:hover span:nth-child(32) {
+  transition-delay: 0.2s;
+  transform: translateY(13px) translateX(-105px);
+}
+.btn-55:hover span:nth-child(33) {
+  transition-delay: 0.1s;
+  transform: translateY(13px) translateX(-104px);
+}
+
+.btn-55:hover span:nth-child(34) {
+  transition-delay: 0.2s;
+  transform: translateY(13px) translateX(-103px);
+}
+
+.btn-55:hover span:nth-child(35) {
+  transition-delay: 0.2s;
+  transform: translateY(13px) translateX(-102px);
+}
+.btn-55:hover span:nth-child(36) {
+  transition-delay: 0.2s;
+  transform: translateY(13px) translateX(-101px);
+}
+
+
+
+
+/* 
+
+.btn-21,
+.btn-21 *,
+.btn-21 :after,
+.btn-21 :before,
+.btn-21:after,
+.btn-21:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-21 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000; 
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-21:disabled {
+  cursor: default;
+}
+.btn-21:-moz-focusring {
+  outline: auto;
+}
+.btn-21 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-21 [hidden] {
+  display: none;
+}
+.btn-21 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+.btn-21 span {
+  mix-blend-mode: difference;
+}
+.btn-21:before {
+  -webkit-animation: move-out 0.6s;
+  animation: move-out 0.6s;
+  background: #fff;
+  content: "";
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+}
+.btn-21:hover:before {
+  -webkit-animation: move-in 0.6s forwards;
+  animation: move-in 0.6s forwards;
+}
+@-webkit-keyframes move-in {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes move-in {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@-webkit-keyframes move-out {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+@keyframes move-out {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+
+.btn-68,
+.btn-68 *,
+.btn-68 :after,
+.btn-68 :before,
+.btn-68:after,
+.btn-68:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-68 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-68:disabled {
+  cursor: default;
+}
+.btn-68:-moz-focusring {
+  outline: auto;
+}
+.btn-68 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-68 [hidden] {
+  display: none;
+}
+.btn-68 {
+  box-shadow: inset 0 0 0 2px #fff;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+  transition: color 0.1s linear;
+}
+.btn-68:after,
+.btn-68:before {
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+.btn-68:before {
+  border-right: var(--border);
+  border-top: var(--border);
+  left: 0;
+  top: 0;
+}
+.btn-68:hover:before {
+  --border: 4px solid #000;
+  -webkit-animation: border-top-and-right 1s forwards;
+  animation: border-top-and-right 1s forwards;
+}
+.btn-68:after {
+  border-bottom: var(--border);
+  border-left: var(--border);
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.btn-68:hover:after {
+  --border: 4px solid #000;
+  -webkit-animation: border-bottom-and-left 1s forwards;
+  animation: border-bottom-and-left 1s forwards;
+}
+@-webkit-keyframes border-top-and-right {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+@keyframes border-top-and-right {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+@-webkit-keyframes border-bottom-and-left {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+@keyframes border-bottom-and-left {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+} */
+
+
+
+.btn-53,
+.btn-53 *,
+.btn-53 :after,
+.btn-53 :before,
+.btn-53:after,
+.btn-53:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-53 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #6ba267;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
+  font-size: 100%;
+  line-height: 1.1;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-53:disabled {
+  cursor: default;
+}
+.btn-53:-moz-focusring {
+  outline: auto;
+}
+.btn-53 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-53 [hidden] {
+  display: none;
+}
+.btn-53 {
+  width:  220px;
+  border: 1px solid rgb(181, 189, 182);
+  border-radius: 0px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 1rem 1rem;
+  position: relative;
+  /* text-transform: uppercase; */
+}
+.btn-53 .original {
+  width:  220px;
+  background: #9c999c;
+  color: #000;
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.4s cubic-bezier(0.87, 0, 0.13, 1);
+}
+.btn-53:hover .original {
+  transform: translateY(100%);
+}
+.btn-53 .letters {
+  display: inline-flex;
+}
+.btn-53 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.2s;
+}
+.btn-53 span:nth-child(2n) {
+  transform: translateY(15px);
+}
+.btn-53:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+.btn-53:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(4) {
+   transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(5) {
+   transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(6) {
+   transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(7) {
+   transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(8) {
+  transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(9) {
+  transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(10) {
+   transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(11) {
+   transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(12) {
+   transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(13) {
+   transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(14) {
+  transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(15) {
+  transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(16) {
+  transition-delay: 1.5s;
+}
+.btn-53:hover span:nth-child(17) {
+   transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(18) {
+   transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(19) {
+   transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(20) {
+   transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(21) {
+   transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(22) {
+  transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(23) {
+   transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(24) {
+   transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(25) {
+   transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(26) {
+   transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(27) {
+  transition-delay: 0.1s;
+}
+.btn-53:hover span:nth-child(28) {
+  transition-delay: 0.2s;
+}
+.btn-53:hover span:nth-child(29) {
+  transition-delay: 2.2s;
+}
+.btn-53:hover span:nth-child(30) {
+  transition-delay: 2.3s;
+}
+.btn-53:hover span:nth-child(31) {
+  transition-delay: 2.4s;
+}
+.btn-53:hover span:nth-child(32) {
+  transition-delay: 2.5s;
+}
+.btn-53:hover span:nth-child(33) {
+  transition-delay: 2.6s;
+}
+.btn-53:hover span:nth-child(34) {
+  transition-delay: 2.7s;
+}

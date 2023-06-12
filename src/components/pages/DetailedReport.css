@@ -1,0 +1,52 @@
+.contain {
+  margin-top: 7%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.details-card {
+  width: 40%;
+  background-color: silver;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.select-detailed-batch {
+  margin-left: 30%;
+  width: 40%;
+  border-radius: 0.5rem;
+  background-color: rgb(219, 219, 219);
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.enter-chest {
+  margin-top: 1rem;
+}
+
+.btndet {
+  background-color: rgb(51, 72, 80);
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  width: 40%;
+  min-height: 2.5rem;
+}
+
+.chest {
+  height: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  width: 40%;
+  text-indent: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+select {
+  width: 5rem;
+}

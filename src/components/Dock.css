@@ -1,0 +1,50 @@
+.dock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #f5f5f5;
+}
+
+.dock-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 80px;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.dock-item.hover {
+  transform: scale(1.3);
+  z-index: 1;
+}
+
+.dock-item.hover ~ .dock-item {
+  transform: translateX(-25%);
+  opacity: 0.7;
+}
+
+.dock-item.hover:nth-child(1) {
+  transform-origin: left;
+}
+
+.dock-item.hover:nth-child(4) {
+  transform-origin: right;
+}
+
+.dock-icon {
+  font-size: 32px;
+}
+
+.dock-text {
+  font-size: 13px; 
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #333333;
+  margin-top: 8px;
+  margin-left: -12%;
+}

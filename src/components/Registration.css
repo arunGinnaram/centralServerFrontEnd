@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.header {
+  display: flex;
+  padding: 0.5rem 2rem;
+  background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container {
+  /* display: grid;
+  grid-template-columns: 2.5fr 1fr 1.5fr;
+  gap: 1rem; */
+  padding: 0.5rem;
+  position: relative;
+}
+
+.roll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 1 17rem;
+}
+
+.roll-no {
+  outline: none;
+  font-weight: bold;
+  color: #646464;
+}
+
+.registered {
+}
+
+.info {
+  padding: 0.5rem 1rem;
+  background-color: beige;
+  border-radius: 1rem;
+
+  width: 88%;
+}
+
+.title {
+  margin: 0.5rem 0;
+}
+
+.info p {
+  line-height: 2.5rem;
+}
+
+.candidate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data {
+  display: flex;
+}
+
+.candidate-data {
+  font-weight: bold;
+  font-style: italic;
+  color: #dd9221;
+  margin-left: 0.2rem;
+}
+
+.photo {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.7rem;
+  height: 9.5rem;
+  width: 9.5rem;
+  border: 1px solid silver;
+}
+
+.chips-and-image {
+  margin: 0.5rem 0;
+}
+
+.chips {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  height: 6rem;
+  width: 88%;
+  border-radius: 1rem;
+  background-color: beige;
+}
+
+.chips div label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.thumbs-and-livecam {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.thumb-impressions {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.thumbs {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbs p {
+  text-align: center;
+}
+
+.thumbs img {
+  display: block;
+  text-align: center;
+  border: 1px solid silver;
+  border-radius: 2rem;
+  margin: 10px 0;
+  width: 200px;
+  height: 200px;
+}
+
+.capture {
+  display: flex;
+}
+
+.livecam {
+  border-radius: 1rem;
+  background-color: beige;
+  padding: 2rem 0;
+}
+
+.capture {
+  display: flex;
+  justify-content: space-around;
+}
+
+video {
+  border: 1px solid silver;
+  border-radius: 2rem;
+  height: 17rem;
+  width: 17rem;
+  margin-bottom: 1rem;
+}
+
+.captured-photo {
+  border: 1px solid silver;
+  height: 17rem;
+  width: 17rem;
+  border-radius: 1rem;
+}
+
+.captured-photo img {
+  border: 1px solid silver;
+}
+
+.buttons {
+  display: flex;
+  padding: 0 3.5rem;
+  gap: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  border-radius: 1rem;
+}
+
+.refresh {
+  width: 3rem;
+}
+
+.btns {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #09d6b4;
+  color: azure;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.submit {
+  width: 15rem;
+  height: 2.5rem;
+  margin-top: 0.2rem;
+  border-radius: 0.3rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #09d6b4;
+  color: azure;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 0.3rem;
+  border: 1px solid silver;
+  height: 2rem;
+  text-indent: 0.5rem;
+  background-color: whitesmoke;
+}
+
+.webcam {
+  height: 17rem;
+  width: 17rem;
+}
