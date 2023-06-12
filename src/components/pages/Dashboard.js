@@ -469,7 +469,7 @@ function Dashboard() {
       <div
         className="dashboard_firstRow mt-2 "
         style={{
-          display: "flex", justifyContent: "flex-start" 
+          display: "flex", justifyContent: "flex-start"
         }}
       >
         <div
@@ -482,7 +482,7 @@ function Dashboard() {
             height: "38%"
           }}
         >
-          <Bar data={userData} />
+          {/* <Bar data={userData} /> */}
         </div>
 
         <div
